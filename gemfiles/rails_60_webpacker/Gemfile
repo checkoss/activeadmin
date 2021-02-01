@@ -20,7 +20,7 @@ group :development, :test do
 
   gem "webpacker", "~> 5.1"
 
-  gem "formtastic", "~> 4.0.rc1"
+  gem "formtastic", "~> 4.0.0"
 end
 
 group :test do
