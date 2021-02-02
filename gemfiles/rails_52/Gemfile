@@ -18,7 +18,7 @@ group :development, :test do
   gem "sprockets-rails"
   gem "sprockets", github: "rails/sprockets", ref: "2d6b1a8bde0cf870c14a2d193fa9a9be09ef99fc"
 
-  gem "formtastic", "~> 4.0.rc1"
+  gem "formtastic", "~> 4.0.0"
 end
 
 group :test do
