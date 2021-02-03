@@ -20,7 +20,7 @@ group :development, :test do
 
   gem "turbolinks", "~> 5.2"
 
-  gem "formtastic", "~> 4.0.rc1"
+  gem "formtastic", "~> 4.0.0"
 end
 
 group :test do
