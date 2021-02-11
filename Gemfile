@@ -12,7 +12,7 @@ group :development, :test do
   gem "draper", "~> 4.0"
   gem "devise"
 
-  gem "rails", "~> 6.0.0"
+  gem "rails", "~> 6.0.3", ">= 6.0.3.5"
   gem "activerecord-jdbcsqlite3-adapter", "~> 60.0", platform: :jruby
 
   gem "sprockets-rails"
@@ -27,7 +27,7 @@ group :test do
   gem "db-query-matchers", "0.10.0"
 
   gem "simplecov", "0.19.0", require: false # Test coverage generator. Go to /coverage/ after running tests
-  gem "cucumber-rails", "~> 2.0", require: false
+  gem "cucumber-rails", "~> 2.1", ">= 2.1.0", require: false
   gem "cucumber"
   gem "database_cleaner"
   gem "jasmine"
