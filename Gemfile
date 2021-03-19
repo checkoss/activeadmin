@@ -63,7 +63,7 @@ end
 
 group :docs do
   gem "yard" # Documentation generator
-  gem "kramdown" # Markdown implementation (for yard)
+  gem "kramdown" , ">= 2.3.1" # Markdown implementation (for yard)
 end
 
 gemspec path: "."
