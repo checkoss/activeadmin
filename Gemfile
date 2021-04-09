@@ -52,8 +52,8 @@ end
 group :lint do
   # Code style
   gem "rubocop", "0.92.0"
-  gem "rubocop-rspec", "~> 1.30"
-  gem "rubocop-rails", "~> 2.3"
+  gem "rubocop-rspec", "~> 1.43", ">= 1.43.2"
+  gem "rubocop-rails", "~> 2.8", ">= 2.8.1"
   gem "mdl", "0.11.0"
 
   # Translations
@@ -63,7 +63,7 @@ end
 
 group :docs do
   gem "yard" # Documentation generator
-  gem "kramdown" # Markdown implementation (for yard)
+  gem "kramdown" , ">= 2.3.0" # Markdown implementation (for yard)
 end
 
 gemspec path: "."
