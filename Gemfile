@@ -9,25 +9,25 @@ group :development, :test do
   gem "pundit"
   gem "jruby-openssl", "~> 0.10.1", platform: :jruby
 
-  gem "draper", "~> 4.0"
+  gem "draper", "~> 4.0", ">= 4.0.1"
   gem "devise"
 
-  gem "rails", "~> 6.0.0"
-  gem "activerecord-jdbcsqlite3-adapter", "~> 60.0", platform: :jruby
+  gem "rails", "~> 6.1.7", ">= 6.1.7.1"
+  gem "activerecord-jdbcsqlite3-adapter", "~> 61.0", platform: :jruby
 
   gem "sprockets-rails"
   gem "sprockets", github: "rails/sprockets", ref: "2d6b1a8bde0cf870c14a2d193fa9a9be09ef99fc"
 
-  gem "formtastic", "~> 4.0.rc1"
+  gem "formtastic", "~> 4.0.0"
 end
 
 group :test do
   gem "cuprite", "0.11"
-  gem "capybara", "~> 3.14"
+  gem "capybara", "~> 3.33", ">= 3.33.0"
   gem "db-query-matchers", "0.10.0"
 
   gem "simplecov", "0.19.0", require: false # Test coverage generator. Go to /coverage/ after running tests
-  gem "cucumber-rails", "~> 2.0", require: false
+  gem "cucumber-rails", "~> 2.1", ">= 2.1.0", require: false
   gem "cucumber"
   gem "database_cleaner"
   gem "jasmine"
@@ -53,7 +53,7 @@ group :lint do
   # Code style
   gem "rubocop", "0.92.0"
   gem "rubocop-rspec", "~> 1.30"
-  gem "rubocop-rails", "~> 2.3"
+  gem "rubocop-rails", "~> 2.8", ">= 2.8.1"
   gem "mdl", "0.11.0"
 
   # Translations
