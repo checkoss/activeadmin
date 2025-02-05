@@ -13,7 +13,7 @@ group :development, :test do
   gem "devise"
 
   gem "rails", "~> 6.0.0"
-  gem "activerecord-jdbcsqlite3-adapter", "~> 60.0", platform: :jruby
+  gem "activerecord-jdbcsqlite3-adapter", "~> 71.0", platform: :jruby
 
   gem "sprockets-rails"
   gem "sprockets", github: "rails/sprockets", ref: "2d6b1a8bde0cf870c14a2d193fa9a9be09ef99fc"
