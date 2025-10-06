@@ -51,9 +51,9 @@ end
 
 group :lint do
   # Code style
-  gem "rubocop", "0.92.0"
-  gem "rubocop-rspec", "~> 1.30"
-  gem "rubocop-rails", "~> 2.3"
+  gem "rubocop", "1.66.0"
+  gem "rubocop-rspec", "~> 2.0", ">= 2.0.0"
+  gem "rubocop-rails", "~> 2.9", ">= 2.9.0"
   gem "mdl", "0.11.0"
 
   # Translations
